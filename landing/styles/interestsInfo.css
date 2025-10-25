@@ -1,0 +1,49 @@
+.feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.interests-info{
+    width: 267px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.interests-info_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.interests-info_list-item{
+    gap: 10px;
+    border-radius: 10px;
+    background-color:  #FFFFFF;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 400;
+    padding: 4px 10px;
+}
+
+.e-mail.selected{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 267px;
+}
+
+.e-mail_address{
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 400;
+    padding: 11px 0 0 0 ;
+}
+

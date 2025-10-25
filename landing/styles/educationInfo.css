@@ -1,0 +1,93 @@
+.education-info{
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    height: 289px;
+    gap: 16px;
+}
+
+.education-info_list{
+    width: 100%;
+    display: flex;
+    row-gap: 16px;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.education-info_list-item{
+    width: 116px;
+    padding: 8px;  
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 10px;
+    background-color:  #FFFFFF;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.education-info_list-item.selected{
+    color: #FFFFFF;
+    background-color: #28D979;
+}
+
+.education-info_header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.education-info_like{
+    height: 11px;
+}
+
+
+.education-info_period,
+.education-info_specialty{
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+    
+}
+
+.education-info_content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.education-info_tags-list{
+    width: 100px;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding-inline-start: 0px;
+}
+
+.education-info_tags-list-item{
+    font-size: 8px;
+    line-height: 150%;
+    font-weight: 400;
+    text-align: center;
+    color: #149063;
+}
+
+.education-info_tags-list-item.selected{
+    color: #EBF9F2;
+}
+
+.education-info_bottom{
+    display: inline-block;
+    height: 12px;
+}
+
+.education-info_study{
+    font-size: 8px;
+    line-height: 150%;
+    font-weight: 400;
+    display: block;
+}
